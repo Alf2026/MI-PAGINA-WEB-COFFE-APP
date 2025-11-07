@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Language" content="es-co">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" href="inicio_de_seccion.css">
+<title>correo electronico</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body bgcolor="#9999FF" onload="FP_preloadImgs(/*url*/'New_Folder/button4F.jpg', /*url*/'New_Folder/button50.jpg')">
+
+<table border="0" width="100%">
+	<tr>
+		<td>
+		<p align="center">
+		<img border="0" src="coffeapp1.png" width="253" height="254" hspace="2" vspace="2"></p>
+		<p>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>
+	</tr>
+	<tr>
+		<td>
+        <form action="">
+			<input type="email" placeholder="EMAIL" required>
+		</form>
+		</td>
+	</tr>
+	<tr>
+	
+		<td>
+			<form action="">
+			<input type="password" placeholder="PASSWORD" required>
+            </form>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+		<p>&nbsp;</td>
+	</tr>
+</table>
+<table border="0" width="100%">
+	<tr>
+		<td>
+		<p align="center"><a href="menu.htm">
+		<img border="0" id="img1" src="New_Folder/button4E.jpg" height="40" width="198" alt="Iniciar Secci�n" fp-style="fp-btn: Brick Row 1; fp-font-style: Italic; fp-font-size: 14" fp-title="Iniciar Secci�n" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'New_Folder/button4F.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'New_Folder/button4E.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'New_Folder/button50.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'New_Folder/button4F.jpg')"></a></p>
+		<p align="center">&nbsp;</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
